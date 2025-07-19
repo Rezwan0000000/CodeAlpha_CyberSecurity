@@ -22,22 +22,27 @@ A complete guide and implementation for setting up a **Network Intrusion Detecti
 
 sudo apt update
 sudo apt install snort
+
 <img width="975" height="434" alt="image" src="https://github.com/user-attachments/assets/7660d59d-6aba-498a-afb0-3600bbfa1b68" />
 
 sudo nano snote.lua
+
 <img width="894" height="303" alt="image" src="https://github.com/user-attachments/assets/9cc187b2-3814-404b-9f04-c45e49fd1ec1" />
 
 sudo nano /etc/snort/rules/local.
+
 <img width="975" height="147" alt="image" src="https://github.com/user-attachments/assets/3ddcb1f4-4a01-45ea-824c-19774fea5e35" />
 
 sudo nano local.rules
 
 alert icmp any any -> any any (msg:"Suspicious ICMP detected!"; sid:1000001; rev:1;)
+
 <img width="975" height="423" alt="image" src="https://github.com/user-attachments/assets/7defc057-ac20-4400-abce-c48673c0aacd" />
 
 include $RULE_PATH/local.rules
 
-snort -c /etc/snort/snort.lua -i eth0 -A alert_fast
+sudo snort -c /etc/snort/snort.lua -i eth0 -A alert_fast
+
 <img width="624" height="376" alt="image" src="https://github.com/user-attachments/assets/ec3a0bd1-df85-4e96-861e-240a49223bd7" />
 
 . # Project Root
