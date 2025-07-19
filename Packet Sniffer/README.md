@@ -1,4 +1,4 @@
-# 🛰️ Mega Packet Analyzer — Python Edition
+# 🛰️ Packet Analyzer — Python Edition
 
 A Professional Command-Line PCAP Inspector for Network Forensics, Blue/Red Teaming, and Capture-The-Flag (CTF) Challenges.
 
