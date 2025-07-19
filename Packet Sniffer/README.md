@@ -73,7 +73,7 @@ python Packet_analysis.py
 - Stops with `Ctrl+C`
 - Automatically saves to `new_packet.pcap`
 
-https://github.com/user-attachments/assets/981a2833-a663-4081-b22d-0e993aff82aa
+<img width="1052" height="882" alt="image" src="https://github.com/user-attachments/assets/ead438a4-0655-4657-84fb-8fb470b6e817" />
 
 ---
 
@@ -100,7 +100,9 @@ https://github.com/user-attachments/assets/981a2833-a663-4081-b22d-0e993aff82aa
 - Save selected packets: `filtered_output.pcap`
 - Dump payloads: `payload_dump.txt`
 
-https://github.com/user-attachments/assets/66380b2c-463b-4304-bdd1-4d36c130e219
+<img width="942" height="945" alt="image" src="https://github.com/user-attachments/assets/a14e217d-93a0-4c31-9a76-e8fa8d32e7ec" />
+
+<img width="1066" height="875" alt="image" src="https://github.com/user-attachments/assets/2251dc03-2c9a-4cc8-bb43-15a2d22e05ff" />
 
 ---
 
