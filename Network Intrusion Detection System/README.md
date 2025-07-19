@@ -45,6 +45,9 @@ sudo snort -c /etc/snort/snort.lua -i eth0 -A alert_fast
 
 <img width="624" height="376" alt="image" src="https://github.com/user-attachments/assets/ec3a0bd1-df85-4e96-861e-240a49223bd7" />
 
+<img width="975" height="254" alt="image" src="https://github.com/user-attachments/assets/bc7a0d80-1f5a-40e2-a38b-5ae32f8248b5" />
+
+
 . # Project Root
 ├── rules/ # Custom rules
 │ └── local.rules
@@ -80,13 +83,9 @@ Perfect for:
 
 ## 🤝 Contributing
 
-You are welcome to contribute by:
-
 - Adding more Snort example rules
 - Integrating notification automation
 - Building dashboard templates
-- Sharing attack simulation or test PCAPs
-
 ---
 
 ## 📄 License
